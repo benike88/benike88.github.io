@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  aligne-items: center;
+  flex-direction: column;
+}
+
+.head {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.h1 {
+  position: absolute;
+  font-family: 'Abril Fatface', cursive;
+  display: flex;
+  fontsize: px;
+  font-size: 46px;
+  color: #222;
+}
+
+span1 {
+  font-size: 82px;
+}
+
+.body {
+  tex-aligne: center;
+  margin-left: 32%;
+  margin-right: 32%;
+  font-family: 'Josefin Sans', sans-serif;
+  display: block;
+}
+
+.intro {
+  font-size: 20px;
+}
+
+span2 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: square;
+}
+
+blockquote {
+  font-family: 'Abril Fatface', cursive;
+  background: grey;
+  color: white;
+  margin-left: -5%;
+  width: 110%;
+  font-size: 48px;
+  display: flex;
+}
+
+blockquote::before {
+  content: '”';
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 26px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 50px;
+}
+
+.sub {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.foot {
+  margin: 50px 0px;
+  padding-top: 50px;
+  border-top: 5px solid black;
+}
